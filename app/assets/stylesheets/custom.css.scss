@@ -27,6 +27,41 @@ footer{
 	color: #777;
 }
 
+div.btn-holder{
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px; 
+}
+
+div.box{
+	border: 1px solid #DEDEDE;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 20px 20px 0;
+    box-shadow: 0px 5px 15px #DEDEDE;
+}
+div.box .well-lg{
+	padding: 24px;
+    border-radius: 6px;
+    height: 250px;
+    /* line-height: 250px; */
+    position: relative;
+    
+
+}
+div.box div.article-title{
+	margin-bottom: 35px;
+	font-size: bold;
+	font-size: 1.5em;
+}
+div.box .btn-holder{
+
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+}
+
 
 $navbar-default-bg: #264D73;
 $navbar-default-link-color: #fff;
