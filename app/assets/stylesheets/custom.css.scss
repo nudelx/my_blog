@@ -1,7 +1,38 @@
 
-$navbar-default-bg: #336699;
+.text-center{
+	text-align: center;
+}
+.home{
+	margin-top: 70px;
+}
+h1.logo{
+	margin: auto;
+	width: 300px;
+	background-image: asset-url('logo-yoda.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 100px;
+	margin-bottom: 30px
+
+}
+p.btn-holder{
+	margin-top: 65px;
+	width: 100%;
+	text-align: center;;
+}
+footer{
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top:1px solid #eaeaea;
+	color: #777;
+}
+
+
+$navbar-default-bg: #264D73;
 $navbar-default-link-color: #fff;
 $navbar-default-link-active-color: #4080BF;
+$navbar-default-toggle-hover-bg: #336699;
+$navbar-default-link-hover-color: #79A6D2;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
