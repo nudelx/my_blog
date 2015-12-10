@@ -11,7 +11,7 @@
 		 			 <% if article.user %>
 		 			 <div class="article-meta-details">
 				 			 <small>
-				 			 				<span> author: <%= article.user.username %> </span>
+				 			 				<span> author:     <%= article.user.username %>                     </span>
 				 			 				<span> created:    <%= time_ago_in_words(article.created_at) %> ago </span>
 				 			 				<span> updated:    <%= time_ago_in_words(article.updated_at) %> ago </span>
 				 			 </small>
