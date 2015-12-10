@@ -8,6 +8,15 @@
 		 		</div>	 		
 		 		<div class="article-body">
 		 			 <%= truncate(article.description, length:100) %> 
+		 			 <% if article.user %>
+		 			 <div class="article-meta-details">
+				 			 <small>
+				 			 				<span> author: <%= article.user.username %> </span>
+				 			 				<span> created:    <%= time_ago_in_words(article.created_at) %> ago </span>
+				 			 				<span> updated:    <%= time_ago_in_words(article.updated_at) %> ago </span>
+				 			 </small>
+		 			 </div>
+		 			 <% end %>
 		 		</div>	
 
 		 		<div class="btn-holder ">
